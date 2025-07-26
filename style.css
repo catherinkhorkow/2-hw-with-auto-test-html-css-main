@@ -67,19 +67,19 @@ select {
 .section-title {
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 26px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     font-size: 16px;
     font-weight: 400;
     list-style-image: url("./assets/images/solar_map-arrow-up-bold.svg");
-    padding-left: 20px
+    padding: 20px
 }
 
 .books-list {
     list-style-type: decimal;
-    padding-left: 20px;
+    padding: 20px;
     font-size: 16px;
 }
 
@@ -94,11 +94,11 @@ select {
     border-radius: 5px;
     border: 1px solid rgba(48, 48, 48, 0.30);
     background-color: rgba(255, 255, 255, 0.00);
+    font-size: 16px;
 }
 
 input::placeholder {
     color: rgba(48, 48, 48, 0.20);
-    font-size: 16px;
     font-weight: 400;
     padding-left: 12px;
 }
@@ -120,19 +120,20 @@ input::placeholder {
 
 table {
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 th, td {
     border: 1px solid #95A1BB;
-    font-size: 14px;
     font-weight: 400;
-    padding: 12px 14px;
+    padding: 12px 15px;
 }
 
 footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.30);
+    padding: 26px 0;
 }
 
 .footer-link {
@@ -140,6 +141,4 @@ footer {
     color: #2965F1;
     font-size: 14px;
     font-weight: 400;
-    display: inline-block;
-    padding: 26px 0 26px 0;
 }
